@@ -1,0 +1,55 @@
+.hjvp {
+  box-sizing: border-box;
+  background-clip: border-box;
+
+  border: 1px solid #f0f0f0;
+
+  thead {
+    background-color: #e0e0e0;
+    text-align: center;
+
+    th,
+    td {
+      text-align: center;
+      padding: 0.5em 1em;
+      font-size: 0.9rem;
+      white-space: nowrap;  // 不自动换行
+    }
+  }
+
+  tbody {
+    th,
+    td {
+      text-align: center;
+      padding: 0.5em 1em;
+      font-size: 0.9rem;
+      line-height: 2;
+    }
+
+    // 斑马条
+    tr:nth-of-type(odd) {}
+    tr:nth-of-type(even) {
+      background-color: #f8f8f8;
+    }
+
+    tr:hover {
+      background-color: #D0F0EF;
+    }
+  }
+}
+
+.hjvp-btn {
+  display: inline-block;
+  border: 1px solid #009b95;
+  border-radius: 0.3em;
+  color: #009b95;
+  text-decoration: none;
+  line-height: 2;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+  &:hover {
+    background-color: #009b95;
+    color: #fff;
+  }
+}
