@@ -1,6 +1,6 @@
 .hjvp { box-sizing: border-box; background-clip: border-box; border: 1px solid #f0f0f0; }
 .hjvp thead { background-color: #e0e0e0; text-align: center; }
-.hjvp thead th, .hjvp thead td { text-align: center; padding: 0.5em 1em; font-size: 0.9rem; white-space: nowrap; }
+.hjvp thead th, .hjvp thead td { text-align: center; padding: 0.5em 1em; font-size: 0.9rem; line-height: 1.5; white-space: nowrap; }
 .hjvp tbody th, .hjvp tbody td { text-align: center; padding: 0.5em 1em; font-size: 0.9rem; line-height: 2; }
 .hjvp tbody tr:nth-of-type(even) { background-color: #f8f8f8; }
 .hjvp tbody tr:hover { background-color: #D0F0EF; }
